@@ -14,5 +14,27 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
 
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLogin"
+        android:layout_alignEnd="@+id/etName"
+        android:layout_alignRight="@+id/etName"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
 
 </RelativeLayout>

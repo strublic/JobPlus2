@@ -23,9 +23,6 @@ class MainActivity2 : AppCompatActivity(){
                 var selectedFragment: Fragment? = null
                 when (item.itemId)
                 {
-                    R.id.action_add ->
-                        selectedFragment = NewJobFragment.newInstance()
-
                     R.id.action_list ->
                         selectedFragment = ListJobFragment.newInstance()
 
